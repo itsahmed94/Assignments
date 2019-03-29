@@ -21,6 +21,7 @@ export default class IScrolledDownAndWhatHappenedNextShockedMe extends Component
   render() {
       return (
         <ScrollView>
+          <Text style={styles.textBlock}> BY Ahmed Shabbir </Text>
           <Text style={styles.textBlock}> Props1 </Text>
           <Props/>
           <Text style={styles.textBlock}> Props2 </Text>
